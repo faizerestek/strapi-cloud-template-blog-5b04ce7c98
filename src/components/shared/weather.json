@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_shared_weather",
+  "info": {
+    "displayName": "Weather",
+    "icon": "cloud",
+    "description": "Weather widget component using OpenWeather data"
+  },
+  "options": {},
+  "attributes": {
+    "city": {
+      "type": "string",
+      "required": true,
+      "default": "London"
+    },
+    "unit": {
+      "type": "enumeration",
+      "enum": ["metric", "imperial"],
+      "default": "metric"
+    },
+    "language": {
+      "type": "string",
+      "default": "en"
+    }
+  }
+}
